@@ -1,6 +1,6 @@
-# SystemMonitorCLI
+# ConsoleSysMonitor
 
-SystemMonitorCLI is a command-line application for monitoring system processes and services. It allows you to list all running processes and services and provides detailed CPU and memory utilization metrics for a selected process.
+ConsoleSysMonitor is a command-line application for monitoring system processes and services. It allows you to list all running processes and services and provides detailed CPU and memory utilization metrics for a selected process.
 
 ## Table of Contents
 
@@ -28,11 +28,11 @@ SystemMonitorCLI is a command-line application for monitoring system processes a
 1. Clone the repository:
 
     ```sh
-    git clone https://github.com/yourusername/SystemMonitorCLI.git
-    cd SystemMonitorCLI
+    git clone https://github.com/get2aadil/ConsoleSysMonitor.git
+    cd ConsoleSysMonitor
     ```
 
-2. Open the solution file (`SystemMonitorCLI.sln`) in Visual Studio.
+2. Open the solution file (`ConsoleSysMonitor.sln`) in Visual Studio.
 
 3. Build the project:
     - In Visual Studio, select **Build** > **Build Solution** from the menu.
