@@ -1,6 +1,6 @@
-# ConsoleSysMonitor
+# SystemMonitorCLI
 
-ConsoleSysMonitor is a command-line application for monitoring system processes and services. It allows you to list all running processes and services and provides detailed CPU and memory utilization metrics for a selected process.
+SystemMonitorCLI is a command-line application for monitoring system processes and services. It allows you to list all running processes and services and provides detailed CPU and memory utilization metrics for a selected process.
 
 ## Table of Contents
 
@@ -8,6 +8,7 @@ ConsoleSysMonitor is a command-line application for monitoring system processes 
 - [Prerequisites](#prerequisites)
 - [Installation](#installation)
 - [Usage](#usage)
+- [Project Structure](#project-structure)
 - [Contributing](#contributing)
 - [License](#license)
 
@@ -20,7 +21,7 @@ ConsoleSysMonitor is a command-line application for monitoring system processes 
 
 ## Prerequisites
 
-- [.NET Core SDK](https://dotnet.microsoft.com/download) (version 3.1 or later)
+- [.NET Framework 4.7.2](https://dotnet.microsoft.com/download/dotnet-framework/net472)
 
 ## Installation
 
@@ -28,22 +29,19 @@ ConsoleSysMonitor is a command-line application for monitoring system processes 
 
     ```sh
     git clone https://github.com/yourusername/SystemMonitorCLI.git
-    cd ConsoleSysMonitor
+    cd SystemMonitorCLI
     ```
 
-2. Build the project:
+2. Open the solution file (`SystemMonitorCLI.sln`) in Visual Studio.
 
-    ```sh
-    dotnet build
-    ```
+3. Build the project:
+    - In Visual Studio, select **Build** > **Build Solution** from the menu.
 
 ## Usage
 
 1. Run the application:
-
-    ```sh
-    dotnet run --project MyPlayGround
-    ```
+    - In Visual Studio, set `MyPlayGround` as the startup project.
+    - Press `F5` to start debugging or `Ctrl+F5` to run without debugging.
 
 2. The application will display all running processes and services.
 
