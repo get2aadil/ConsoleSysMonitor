@@ -50,7 +50,7 @@ ConsoleSysMonitor is a command-line application for monitoring system processes 
 ## Project Structure
 
 ```plaintext
-SystemMonitorCLI/
+ConsoleSysMonitor/
 │
 ├── MyPlayGround/
 │   ├── Interfaces/
