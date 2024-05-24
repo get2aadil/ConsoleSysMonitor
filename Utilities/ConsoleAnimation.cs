@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
+﻿// Provides methods to display a console animation while performing tasks.
+
+using System;
 using System.Threading;
-using System.Threading.Tasks;
 
 namespace MyPlayGround.Utilities
 {
@@ -12,6 +10,10 @@ namespace MyPlayGround.Utilities
         private static bool _isRunning;
         private static Thread _animationThread;
 
+        /// <summary>
+        /// Starts the console animation with a given message.
+        /// </summary>
+        /// <param name="message">The message to display alongside the animation.</param>
         public static void StartAnimation(string message)
         {
             _isRunning = true;
@@ -31,6 +33,9 @@ namespace MyPlayGround.Utilities
             _animationThread.Start();
         }
 
+        /// <summary>
+        /// Stops the console animation.
+        /// </summary>
         public static void StopAnimation()
         {
             _isRunning = false;

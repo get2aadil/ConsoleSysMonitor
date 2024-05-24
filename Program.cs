@@ -89,6 +89,11 @@ namespace MyPlayGround
             }
         }
 
+        /// <summary>
+        /// Gets the CPU usage of a process by its ID.
+        /// </summary>
+        /// <param name="processId">The ID of the process.</param>
+        /// <returns>The CPU usage as a float percentage. Returns -1 if an error occurs.</returns>  
         static float GetCpuUsage(int processId)
         {
             try
@@ -109,6 +114,11 @@ namespace MyPlayGround
             }
         }
 
+        /// <summary>
+        /// Gets the memory usage of a process by its ID.
+        /// </summary>
+        /// <param name="processId">The ID of the process.</param>
+        /// <returns>The memory usage in MB. Returns -1 if an error occurs.</returns>
         static float GetMemoryUsage(int processId)
         {
             try

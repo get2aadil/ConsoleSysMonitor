@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Represents a system service with basic information and performance metrics.
 
 namespace MyPlayGround.Interfaces
 {

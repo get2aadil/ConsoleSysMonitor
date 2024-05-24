@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿// Represents a generic performance metrics (CPU and memory usage) for a system entity.
 
 namespace MyPlayGround.Models
 {
@@ -11,6 +7,11 @@ namespace MyPlayGround.Models
         public float CpuUsage { get; set; }
         public float MemoryUsage { get; set; }
 
+        /// <summary>
+        /// Initializes a new instance of the PerformanceMetrics class.
+        /// </summary>
+        /// <param name="cpuUsage">The CPU usage as a percentage.</param>
+        /// <param name="memoryUsage">The memory usage in MB.</param>
         public PerformanceMetrics(float cpuUsage, float memoryUsage)
         {
             CpuUsage = cpuUsage;
